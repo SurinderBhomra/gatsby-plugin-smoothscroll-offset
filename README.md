@@ -6,7 +6,7 @@ This plugin has been adapted from the '[gatsby-plugin-smoothscroll](https://www.
 
 ```bash
 # npm
-npm gatsby-plugin-smoothscroll-offset
+npm install gatsby-plugin-smoothscroll-offset
 ```
 
 ## When To Use This Plugin?
