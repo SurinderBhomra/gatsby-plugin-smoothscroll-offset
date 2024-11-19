@@ -1,6 +1,6 @@
 {
     "name": "gatsby-plugin-smoothscroll-offset",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "Surinder Bhomra (https://www.surinderbhomra.com)",
     "description": "Smooth scrolling helper function with customisable offset for Gatsby sites. Modified from: https://github.com/freddydumont/gatsby-plugin-smoothscroll.",
     "keywords": [
