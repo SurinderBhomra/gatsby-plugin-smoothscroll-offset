@@ -1,0 +1,35 @@
+{
+    "name": "gatsby-plugin-smoothscroll-offset",
+    "version": "1.0.0",
+    "author": "Surinder Bhomra (https://www.surinderbhomra.com)",
+    "description": "Smooth scrolling helper function with customisable offset for Gatsby sites. Modified from: https://github.com/freddydumont/gatsby-plugin-smoothscroll.",
+    "keywords": [
+      "gatsby",
+      "gatsby-plugin",
+      "smooth",
+      "scroll",
+      "smoothscroll"
+    ],
+    "license": "MIT",
+    "private": false,
+    "publishConfig": {
+      "registry": "https://registry.npmjs.org"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/SurinderBhomra/gatsby-plugin-smoothscroll-offset.git"
+    },
+    "homepage": "https://github.com/SurinderBhomra/gatsby-plugin-smoothscroll-offset#readme",
+    "scripts": {
+      "build": "babel src --out-dir . --ignore **/__tests__",
+      "prepare": "cross-env NODE_ENV=production npm run build",
+      "watch": "babel -w src --out-dir . --ignore **/__tests__"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.6.0",
+      "@babel/core": "^7.6.0",
+      "babel-preset-gatsby-package": "^0.2.4",
+      "cross-env": "^5.2.1"
+    },
+    "types": "index.d.ts"
+  }
